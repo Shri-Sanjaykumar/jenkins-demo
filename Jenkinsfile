@@ -21,4 +21,3 @@ pipeline {
         }
     }
 }
-Add Jenkinsfile for pipeline
