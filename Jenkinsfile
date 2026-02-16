@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Checkout stage'
+                echo 'Checking out source code'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Build stage'
+                echo 'Building application'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Test stage'
+                echo 'Running tests'
             }
         }
     }
